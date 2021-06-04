@@ -1870,3 +1870,391 @@ Script call stack:
 [2021.06.04-16.26.31:001][468]LogContentValidation: Display: Validating Blueprint /Game/Demo/Blueprint/BP_Dude.BP_Dude
 [2021.06.04-16.26.31:001][468]LogContentValidation: Display: Validating Blueprint /Game/Demo/Blueprint/BP_Shot.BP_Shot
 [2021.06.04-16.26.31:001][468]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Demo/Materials/M_Shot_Laser.M_Shot_Laser
+[2021.06.04-16.31.51:968][836]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.04-16.31.51:990][836]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.06.04-16.31.51:995][836]LogPlayLevel: [PlayLevel] Compiling BP_Dude before play...
+[2021.06.04-16.31.52:382][836]LogUObjectHash: Compacting FUObjectHashTables data took   5.60ms
+[2021.06.04-16.31.52:383][836]LogPlayLevel: PlayLevel: Blueprint regeneration took 393 ms (1 blueprints)
+[2021.06.04-16.31.52:383][836]PIE: New page: PIE session: Level00 (Jun 4, 2021, 6:31:52 AM)
+[2021.06.04-16.31.52:383][836]LogPlayLevel: Creating play world package: /Game/Demo/Maps/UEDPIE_0_Level00
+[2021.06.04-16.31.52:397][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013522s)
+[2021.06.04-16.31.52:398][836]LogAIModule: Creating AISystem for world Level00
+[2021.06.04-16.31.52:398][836]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2021.06.04-16.31.52:398][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo/Maps/Level00.Level00 to /Game/Demo/Maps/UEDPIE_0_Level00.Level00 (0.014651s)
+[2021.06.04-16.31.52:435][836]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2021.06.04-16.31.52:436][836]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.04-16.31.52:436][836]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.04-16.31.52:436][836]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.04-16.31.52:436][836]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.04-16.31.52:436][836]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.04-16.31.52:436][836]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.04-16.31.52:436][836]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.04-16.31.52:436][836]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.04-16.31.52:436][836]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.04-16.31.52:436][836]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.04-16.31.52:496][836]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.06.04-16.31.52:496][836]LogAudioMixer: Display: Name: LG ULTRAWIDE (2- NVIDIA High Definition Audio)
+[2021.06.04-16.31.52:496][836]LogAudioMixer: Display: Is Default: Yes
+[2021.06.04-16.31.52:496][836]LogAudioMixer: Display: Sample Rate: 48000
+[2021.06.04-16.31.52:496][836]LogAudioMixer: Display: Channel Count Used: 2
+[2021.06.04-16.31.52:496][836]LogAudioMixer: Display: Device Channel Count: 2
+[2021.06.04-16.31.52:496][836]LogAudioMixer: Display: Channel Order:
+[2021.06.04-16.31.52:496][836]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.04-16.31.52:496][836]LogAudioMixer: Display: 1: FrontRight
+[2021.06.04-16.31.52:506][836]LogAudioMixer: Display: Using Audio Device LG ULTRAWIDE (2- NVIDIA High Definition Audio)
+[2021.06.04-16.31.52:507][836]LogInit: FAudioDevice initialized.
+[2021.06.04-16.31.52:570][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-16.31.52:571][836]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.06.04-16.31.52:576][836]LogWorld: Bringing World /Game/Demo/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2021.06.04-11.31.52
+[2021.06.04-16.31.52:576][836]LogWorld: Bringing up level for play took: 0.005179
+[2021.06.04-16.31.52:576][836]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.06.04-16.31.52:581][836]PIE: Play in editor start time for /Game/Demo/Maps/UEDPIE_0_Level00 -0.014
+[2021.06.04-16.31.56:973][322]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'WeaponArray' of length 3 in '/Game/Demo/Blueprint/BP_Dude.BP_Dude_C'!
+[2021.06.04-16.31.57:704][405]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.31.57:704][405]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.31.57:704][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-16.31.57:704][405]LogWorld: BeginTearingDown for /Game/Demo/Maps/UEDPIE_0_Level00
+[2021.06.04-16.31.57:713][405]LogSlate: Window 'Demo2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.06.04-16.31.57:722][405]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.31.57:723][405]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2021.06.04-16.31.57:724][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-16.31.57:733][405]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.04-16.31.57:741][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-16.31.57:783][405]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.31.57:795][405]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2021.06.04-16.31.57:820][406]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.06.04-16.32.50:213][511]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.04-16.32.50:233][511]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.06.04-16.32.50:238][511]LogPlayLevel: [PlayLevel] Compiling BP_Dude before play...
+[2021.06.04-16.32.50:612][511]LogUObjectHash: Compacting FUObjectHashTables data took   4.60ms
+[2021.06.04-16.32.50:613][511]LogPlayLevel: PlayLevel: Blueprint regeneration took 380 ms (1 blueprints)
+[2021.06.04-16.32.50:613][511]PIE: New page: PIE session: Level00 (Jun 4, 2021, 6:32:50 AM)
+[2021.06.04-16.32.50:613][511]LogPlayLevel: Creating play world package: /Game/Demo/Maps/UEDPIE_0_Level00
+[2021.06.04-16.32.50:627][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013476s)
+[2021.06.04-16.32.50:628][511]LogAIModule: Creating AISystem for world Level00
+[2021.06.04-16.32.50:628][511]LogPlayLevel: PIE: World Init took: (0.001229s)
+[2021.06.04-16.32.50:628][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo/Maps/Level00.Level00 to /Game/Demo/Maps/UEDPIE_0_Level00.Level00 (0.014867s)
+[2021.06.04-16.32.50:665][511]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2021.06.04-16.32.50:666][511]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.04-16.32.50:666][511]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.04-16.32.50:666][511]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.04-16.32.50:666][511]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.04-16.32.50:666][511]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.04-16.32.50:666][511]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.04-16.32.50:666][511]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.04-16.32.50:666][511]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.04-16.32.50:666][511]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.04-16.32.50:666][511]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.04-16.32.50:726][511]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.06.04-16.32.50:726][511]LogAudioMixer: Display: Name: LG ULTRAWIDE (2- NVIDIA High Definition Audio)
+[2021.06.04-16.32.50:726][511]LogAudioMixer: Display: Is Default: Yes
+[2021.06.04-16.32.50:726][511]LogAudioMixer: Display: Sample Rate: 48000
+[2021.06.04-16.32.50:726][511]LogAudioMixer: Display: Channel Count Used: 2
+[2021.06.04-16.32.50:726][511]LogAudioMixer: Display: Device Channel Count: 2
+[2021.06.04-16.32.50:726][511]LogAudioMixer: Display: Channel Order:
+[2021.06.04-16.32.50:726][511]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.04-16.32.50:726][511]LogAudioMixer: Display: 1: FrontRight
+[2021.06.04-16.32.50:735][511]LogAudioMixer: Display: Using Audio Device LG ULTRAWIDE (2- NVIDIA High Definition Audio)
+[2021.06.04-16.32.50:737][511]LogInit: FAudioDevice initialized.
+[2021.06.04-16.32.50:786][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-16.32.50:787][511]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.06.04-16.32.50:792][511]LogWorld: Bringing World /Game/Demo/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2021.06.04-11.32.50
+[2021.06.04-16.32.50:792][511]LogWorld: Bringing up level for play took: 0.004877
+[2021.06.04-16.32.50:792][511]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.06.04-16.32.50:797][511]PIE: Play in editor start time for /Game/Demo/Maps/UEDPIE_0_Level00 0.2
+[2021.06.04-16.32.53:875][820]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.32.53:875][820]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.32.53:875][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-16.32.53:875][820]LogWorld: BeginTearingDown for /Game/Demo/Maps/UEDPIE_0_Level00
+[2021.06.04-16.32.53:884][820]LogSlate: Window 'Demo2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.06.04-16.32.53:893][820]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.32.53:893][820]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2021.06.04-16.32.53:894][820]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-16.32.53:900][820]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.04-16.32.53:907][820]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-16.32.53:938][820]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.32.53:951][820]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2021.06.04-16.32.53:977][821]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.06.04-16.33.23:965][240]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.04-16.33.23:985][240]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.06.04-16.33.23:990][240]LogPlayLevel: [PlayLevel] Compiling BP_Dude before play...
+[2021.06.04-16.33.24:373][240]LogUObjectHash: Compacting FUObjectHashTables data took   5.75ms
+[2021.06.04-16.33.24:374][240]LogPlayLevel: PlayLevel: Blueprint regeneration took 389 ms (1 blueprints)
+[2021.06.04-16.33.24:374][240]PIE: New page: PIE session: Level00 (Jun 4, 2021, 6:33:24 AM)
+[2021.06.04-16.33.24:374][240]LogPlayLevel: Creating play world package: /Game/Demo/Maps/UEDPIE_0_Level00
+[2021.06.04-16.33.24:388][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013619s)
+[2021.06.04-16.33.24:389][240]LogAIModule: Creating AISystem for world Level00
+[2021.06.04-16.33.24:389][240]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2021.06.04-16.33.24:389][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo/Maps/Level00.Level00 to /Game/Demo/Maps/UEDPIE_0_Level00.Level00 (0.014789s)
+[2021.06.04-16.33.24:428][240]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2021.06.04-16.33.24:428][240]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.04-16.33.24:428][240]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.04-16.33.24:428][240]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.04-16.33.24:428][240]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.04-16.33.24:428][240]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.04-16.33.24:428][240]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.04-16.33.24:428][240]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.04-16.33.24:428][240]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.04-16.33.24:429][240]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.04-16.33.24:429][240]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.04-16.33.24:488][240]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.06.04-16.33.24:488][240]LogAudioMixer: Display: Name: LG ULTRAWIDE (2- NVIDIA High Definition Audio)
+[2021.06.04-16.33.24:488][240]LogAudioMixer: Display: Is Default: Yes
+[2021.06.04-16.33.24:488][240]LogAudioMixer: Display: Sample Rate: 48000
+[2021.06.04-16.33.24:488][240]LogAudioMixer: Display: Channel Count Used: 2
+[2021.06.04-16.33.24:488][240]LogAudioMixer: Display: Device Channel Count: 2
+[2021.06.04-16.33.24:488][240]LogAudioMixer: Display: Channel Order:
+[2021.06.04-16.33.24:488][240]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.04-16.33.24:488][240]LogAudioMixer: Display: 1: FrontRight
+[2021.06.04-16.33.24:497][240]LogAudioMixer: Display: Using Audio Device LG ULTRAWIDE (2- NVIDIA High Definition Audio)
+[2021.06.04-16.33.24:498][240]LogInit: FAudioDevice initialized.
+[2021.06.04-16.33.24:554][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-16.33.24:554][240]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.06.04-16.33.24:559][240]LogWorld: Bringing World /Game/Demo/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2021.06.04-11.33.24
+[2021.06.04-16.33.24:560][240]LogWorld: Bringing up level for play took: 0.004567
+[2021.06.04-16.33.24:560][240]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.06.04-16.33.24:565][240]PIE: Play in editor start time for /Game/Demo/Maps/UEDPIE_0_Level00 -0.032
+[2021.06.04-16.33.26:072][389]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.33.26:072][389]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.33.26:073][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-16.33.26:073][389]LogWorld: BeginTearingDown for /Game/Demo/Maps/UEDPIE_0_Level00
+[2021.06.04-16.33.26:081][389]LogSlate: Window 'Demo2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.06.04-16.33.26:089][389]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.33.26:090][389]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2021.06.04-16.33.26:091][389]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-16.33.26:096][389]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.04-16.33.26:107][389]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-16.33.26:145][389]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.33.26:154][389]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2021.06.04-16.33.26:181][390]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.06.04-16.33.45:675][618]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.04-16.33.45:696][618]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.06.04-16.33.45:701][618]LogPlayLevel: [PlayLevel] Compiling BP_Dude before play...
+[2021.06.04-16.33.46:072][618]LogUObjectHash: Compacting FUObjectHashTables data took   5.59ms
+[2021.06.04-16.33.46:072][618]LogPlayLevel: PlayLevel: Blueprint regeneration took 376 ms (1 blueprints)
+[2021.06.04-16.33.46:073][618]PIE: New page: PIE session: Level00 (Jun 4, 2021, 6:33:46 AM)
+[2021.06.04-16.33.46:073][618]LogPlayLevel: Creating play world package: /Game/Demo/Maps/UEDPIE_0_Level00
+[2021.06.04-16.33.46:086][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013622s)
+[2021.06.04-16.33.46:087][618]LogAIModule: Creating AISystem for world Level00
+[2021.06.04-16.33.46:087][618]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2021.06.04-16.33.46:087][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo/Maps/Level00.Level00 to /Game/Demo/Maps/UEDPIE_0_Level00.Level00 (0.014698s)
+[2021.06.04-16.33.46:127][618]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.06.04-16.33.46:127][618]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.04-16.33.46:127][618]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.04-16.33.46:127][618]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.04-16.33.46:127][618]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.04-16.33.46:127][618]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.04-16.33.46:127][618]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.04-16.33.46:127][618]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.04-16.33.46:127][618]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.04-16.33.46:128][618]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.04-16.33.46:128][618]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.04-16.33.46:186][618]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.06.04-16.33.46:186][618]LogAudioMixer: Display: Name: LG ULTRAWIDE (2- NVIDIA High Definition Audio)
+[2021.06.04-16.33.46:186][618]LogAudioMixer: Display: Is Default: Yes
+[2021.06.04-16.33.46:186][618]LogAudioMixer: Display: Sample Rate: 48000
+[2021.06.04-16.33.46:186][618]LogAudioMixer: Display: Channel Count Used: 2
+[2021.06.04-16.33.46:186][618]LogAudioMixer: Display: Device Channel Count: 2
+[2021.06.04-16.33.46:186][618]LogAudioMixer: Display: Channel Order:
+[2021.06.04-16.33.46:186][618]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.04-16.33.46:186][618]LogAudioMixer: Display: 1: FrontRight
+[2021.06.04-16.33.46:195][618]LogAudioMixer: Display: Using Audio Device LG ULTRAWIDE (2- NVIDIA High Definition Audio)
+[2021.06.04-16.33.46:197][618]LogInit: FAudioDevice initialized.
+[2021.06.04-16.33.46:254][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-16.33.46:254][618]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.06.04-16.33.46:260][618]LogWorld: Bringing World /Game/Demo/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2021.06.04-11.33.46
+[2021.06.04-16.33.46:260][618]LogWorld: Bringing up level for play took: 0.005126
+[2021.06.04-16.33.46:260][618]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.06.04-16.33.46:265][618]PIE: Play in editor start time for /Game/Demo/Maps/UEDPIE_0_Level00 -0.332
+[2021.06.04-16.33.50:318][ 35]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.33.50:318][ 35]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.33.50:318][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-16.33.50:318][ 35]LogWorld: BeginTearingDown for /Game/Demo/Maps/UEDPIE_0_Level00
+[2021.06.04-16.33.50:327][ 35]LogSlate: Window 'Demo2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.06.04-16.33.50:336][ 35]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.33.50:336][ 35]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2021.06.04-16.33.50:337][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-16.33.50:342][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.04-16.33.50:349][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-16.33.50:385][ 35]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.33.50:394][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.06.04-16.33.50:420][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.06.04-16.33.52:912][309]LogEditorTransaction: Undo Create Pin Link
+[2021.06.04-16.33.53:255][314]LogEditorTransaction: Undo Create Pin Link
+[2021.06.04-16.33.53:846][357]LogEditorTransaction: Undo Add Node
+[2021.06.04-16.33.54:435][407]LogEditorTransaction: Undo Delete current selection
+[2021.06.04-16.33.58:392][777]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.04-16.33.58:413][777]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.06.04-16.33.58:417][777]LogPlayLevel: [PlayLevel] Compiling BP_Dude before play...
+[2021.06.04-16.33.58:798][777]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2021.06.04-16.33.58:798][777]LogPlayLevel: PlayLevel: Blueprint regeneration took 385 ms (1 blueprints)
+[2021.06.04-16.33.58:798][777]PIE: New page: PIE session: Level00 (Jun 4, 2021, 6:33:58 AM)
+[2021.06.04-16.33.58:799][777]LogPlayLevel: Creating play world package: /Game/Demo/Maps/UEDPIE_0_Level00
+[2021.06.04-16.33.58:812][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013377s)
+[2021.06.04-16.33.58:813][777]LogAIModule: Creating AISystem for world Level00
+[2021.06.04-16.33.58:813][777]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2021.06.04-16.33.58:813][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo/Maps/Level00.Level00 to /Game/Demo/Maps/UEDPIE_0_Level00.Level00 (0.014543s)
+[2021.06.04-16.33.58:849][777]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.06.04-16.33.58:849][777]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.04-16.33.58:849][777]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.04-16.33.58:849][777]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.04-16.33.58:849][777]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.04-16.33.58:849][777]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.04-16.33.58:849][777]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.04-16.33.58:849][777]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.04-16.33.58:849][777]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.04-16.33.58:850][777]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.04-16.33.58:850][777]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.04-16.33.58:909][777]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.06.04-16.33.58:909][777]LogAudioMixer: Display: Name: LG ULTRAWIDE (2- NVIDIA High Definition Audio)
+[2021.06.04-16.33.58:909][777]LogAudioMixer: Display: Is Default: Yes
+[2021.06.04-16.33.58:909][777]LogAudioMixer: Display: Sample Rate: 48000
+[2021.06.04-16.33.58:909][777]LogAudioMixer: Display: Channel Count Used: 2
+[2021.06.04-16.33.58:909][777]LogAudioMixer: Display: Device Channel Count: 2
+[2021.06.04-16.33.58:909][777]LogAudioMixer: Display: Channel Order:
+[2021.06.04-16.33.58:909][777]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.04-16.33.58:909][777]LogAudioMixer: Display: 1: FrontRight
+[2021.06.04-16.33.58:918][777]LogAudioMixer: Display: Using Audio Device LG ULTRAWIDE (2- NVIDIA High Definition Audio)
+[2021.06.04-16.33.58:920][777]LogInit: FAudioDevice initialized.
+[2021.06.04-16.33.58:972][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-16.33.58:972][777]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.06.04-16.33.58:977][777]LogWorld: Bringing World /Game/Demo/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2021.06.04-11.33.58
+[2021.06.04-16.33.58:977][777]LogWorld: Bringing up level for play took: 0.004613
+[2021.06.04-16.33.58:978][777]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.06.04-16.33.58:982][777]PIE: Play in editor start time for /Game/Demo/Maps/UEDPIE_0_Level00 0.386
+[2021.06.04-16.34.02:499][129]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.34.02:499][129]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.34.02:499][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-16.34.02:499][129]LogWorld: BeginTearingDown for /Game/Demo/Maps/UEDPIE_0_Level00
+[2021.06.04-16.34.02:508][129]LogSlate: Window 'Demo2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.06.04-16.34.02:517][129]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.34.02:517][129]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2021.06.04-16.34.02:519][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-16.34.02:524][129]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.04-16.34.02:531][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-16.34.02:569][129]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.34.02:579][129]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.06.04-16.34.02:605][130]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.06.04-16.36.20:394][139]LogEditorTransaction: Undo Move Node
+[2021.06.04-16.38.44:581][152]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.04-16.38.44:603][152]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.06.04-16.38.44:608][152]LogPlayLevel: [PlayLevel] Compiling BP_Dude before play...
+[2021.06.04-16.38.45:007][152]LogUObjectHash: Compacting FUObjectHashTables data took   5.67ms
+[2021.06.04-16.38.45:008][152]LogPlayLevel: PlayLevel: Blueprint regeneration took 404 ms (1 blueprints)
+[2021.06.04-16.38.45:008][152]PIE: New page: PIE session: Level00 (Jun 4, 2021, 6:38:45 AM)
+[2021.06.04-16.38.45:008][152]LogPlayLevel: Creating play world package: /Game/Demo/Maps/UEDPIE_0_Level00
+[2021.06.04-16.38.45:022][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013650s)
+[2021.06.04-16.38.45:023][152]LogAIModule: Creating AISystem for world Level00
+[2021.06.04-16.38.45:023][152]LogPlayLevel: PIE: World Init took: (0.001262s)
+[2021.06.04-16.38.45:023][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo/Maps/Level00.Level00 to /Game/Demo/Maps/UEDPIE_0_Level00.Level00 (0.015118s)
+[2021.06.04-16.38.45:064][152]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2021.06.04-16.38.45:065][152]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.04-16.38.45:065][152]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.04-16.38.45:065][152]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.04-16.38.45:065][152]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.04-16.38.45:065][152]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.04-16.38.45:065][152]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.04-16.38.45:065][152]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.04-16.38.45:065][152]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.04-16.38.45:065][152]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.04-16.38.45:065][152]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.04-16.38.45:124][152]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.06.04-16.38.45:124][152]LogAudioMixer: Display: Name: LG ULTRAWIDE (2- NVIDIA High Definition Audio)
+[2021.06.04-16.38.45:124][152]LogAudioMixer: Display: Is Default: Yes
+[2021.06.04-16.38.45:124][152]LogAudioMixer: Display: Sample Rate: 48000
+[2021.06.04-16.38.45:124][152]LogAudioMixer: Display: Channel Count Used: 2
+[2021.06.04-16.38.45:124][152]LogAudioMixer: Display: Device Channel Count: 2
+[2021.06.04-16.38.45:124][152]LogAudioMixer: Display: Channel Order:
+[2021.06.04-16.38.45:124][152]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.04-16.38.45:124][152]LogAudioMixer: Display: 1: FrontRight
+[2021.06.04-16.38.45:133][152]LogAudioMixer: Display: Using Audio Device LG ULTRAWIDE (2- NVIDIA High Definition Audio)
+[2021.06.04-16.38.45:135][152]LogInit: FAudioDevice initialized.
+[2021.06.04-16.38.45:195][152]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-16.38.45:196][152]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.06.04-16.38.45:200][152]LogWorld: Bringing World /Game/Demo/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2021.06.04-11.38.45
+[2021.06.04-16.38.45:201][152]LogWorld: Bringing up level for play took: 0.004343
+[2021.06.04-16.38.45:201][152]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.06.04-16.38.45:206][152]PIE: Play in editor start time for /Game/Demo/Maps/UEDPIE_0_Level00 0.61
+[2021.06.04-16.38.48:187][473]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'WeaponArray' of length 3 in '/Game/Demo/Blueprint/BP_Dude.BP_Dude_C'!
+[2021.06.04-16.38.48:753][538]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.38.48:753][538]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.38.48:753][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-16.38.48:753][538]LogWorld: BeginTearingDown for /Game/Demo/Maps/UEDPIE_0_Level00
+[2021.06.04-16.38.48:762][538]LogSlate: Window 'Demo2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.06.04-16.38.48:771][538]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.38.48:771][538]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2021.06.04-16.38.48:773][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-16.38.48:780][538]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.04-16.38.48:788][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-16.38.48:819][538]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.38.48:831][538]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2021.06.04-16.38.48:857][539]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.06.04-16.39.48:381][566]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.04-16.39.48:402][566]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.06.04-16.39.48:407][566]LogPlayLevel: [PlayLevel] Compiling BP_Dude before play...
+[2021.06.04-16.39.48:786][566]LogUObjectHash: Compacting FUObjectHashTables data took   5.94ms
+[2021.06.04-16.39.48:788][566]LogPlayLevel: PlayLevel: Blueprint regeneration took 386 ms (1 blueprints)
+[2021.06.04-16.39.48:788][566]PIE: New page: PIE session: Level00 (Jun 4, 2021, 6:39:48 AM)
+[2021.06.04-16.39.48:788][566]LogPlayLevel: Creating play world package: /Game/Demo/Maps/UEDPIE_0_Level00
+[2021.06.04-16.39.48:801][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013229s)
+[2021.06.04-16.39.48:802][566]LogAIModule: Creating AISystem for world Level00
+[2021.06.04-16.39.48:803][566]LogPlayLevel: PIE: World Init took: (0.001375s)
+[2021.06.04-16.39.48:803][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Demo/Maps/Level00.Level00 to /Game/Demo/Maps/UEDPIE_0_Level00.Level00 (0.014808s)
+[2021.06.04-16.39.48:842][566]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2021.06.04-16.39.48:843][566]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.04-16.39.48:843][566]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.04-16.39.48:843][566]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.04-16.39.48:843][566]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.04-16.39.48:843][566]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.04-16.39.48:843][566]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.04-16.39.48:843][566]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.04-16.39.48:843][566]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.04-16.39.48:843][566]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.04-16.39.48:843][566]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.04-16.39.48:901][566]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2021.06.04-16.39.48:901][566]LogAudioMixer: Display: Name: LG ULTRAWIDE (2- NVIDIA High Definition Audio)
+[2021.06.04-16.39.48:901][566]LogAudioMixer: Display: Is Default: Yes
+[2021.06.04-16.39.48:901][566]LogAudioMixer: Display: Sample Rate: 48000
+[2021.06.04-16.39.48:901][566]LogAudioMixer: Display: Channel Count Used: 2
+[2021.06.04-16.39.48:901][566]LogAudioMixer: Display: Device Channel Count: 2
+[2021.06.04-16.39.48:901][566]LogAudioMixer: Display: Channel Order:
+[2021.06.04-16.39.48:901][566]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.04-16.39.48:901][566]LogAudioMixer: Display: 1: FrontRight
+[2021.06.04-16.39.48:911][566]LogAudioMixer: Display: Using Audio Device LG ULTRAWIDE (2- NVIDIA High Definition Audio)
+[2021.06.04-16.39.48:912][566]LogInit: FAudioDevice initialized.
+[2021.06.04-16.39.48:963][566]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-16.39.48:964][566]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2021.06.04-16.39.48:970][566]LogWorld: Bringing World /Game/Demo/Maps/UEDPIE_0_Level00.Level00 up for play (max tick rate 0) at 2021.06.04-11.39.48
+[2021.06.04-16.39.48:971][566]LogWorld: Bringing up level for play took: 0.006731
+[2021.06.04-16.39.48:971][566]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.06.04-16.39.48:976][566]PIE: Play in editor start time for /Game/Demo/Maps/UEDPIE_0_Level00 0.379
+[2021.06.04-16.39.53:458][ 68]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.39.53:458][ 68]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.39.53:458][ 68]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-16.39.53:458][ 68]LogWorld: BeginTearingDown for /Game/Demo/Maps/UEDPIE_0_Level00
+[2021.06.04-16.39.53:467][ 68]LogSlate: Window 'Demo2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2021.06.04-16.39.53:477][ 68]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.39.53:478][ 68]LogWorld: UWorld::CleanupWorld for Level00, bSessionEnded=true, bCleanupResources=true
+[2021.06.04-16.39.53:479][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-16.39.53:485][ 68]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.04-16.39.53:493][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-16.39.53:530][ 68]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2021.06.04-16.39.53:539][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.06.04-16.39.53:564][ 69]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2021.06.04-16.39.56:071][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2021.06.04-16.39.57:295][310]LogSlate: Window 'Save Content' being destroyed
+[2021.06.04-16.39.57:334][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Demo/Blueprint/BP_Dude" FILE="C:/Users/Brandon/Documents/GitHub/Unreal-2D-Game-Demo/Demo2/Content/Demo/Blueprint/BP_Dude.uasset" SILENT=true
+[2021.06.04-16.39.57:431][310]LogSavePackage: Moving 'C:/Users/Brandon/Documents/GitHub/Unreal-2D-Game-Demo/Demo2/Saved/BP_DudeB2E6273C4298D85CC5BC1BA73F9FD0D3.tmp' to 'C:/Users/Brandon/Documents/GitHub/Unreal-2D-Game-Demo/Demo2/Content/Demo/Blueprint/BP_Dude.uasset'
+[2021.06.04-16.39.57:433][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Demo/Materials/M_Shot_Laser" FILE="C:/Users/Brandon/Documents/GitHub/Unreal-2D-Game-Demo/Demo2/Content/Demo/Materials/M_Shot_Laser.uasset" SILENT=true
+[2021.06.04-16.39.57:444][310]LogSavePackage: Moving 'C:/Users/Brandon/Documents/GitHub/Unreal-2D-Game-Demo/Demo2/Saved/M_Shot_LaserDB3A5C574D61D87683F73C8DA659A5CF.tmp' to 'C:/Users/Brandon/Documents/GitHub/Unreal-2D-Game-Demo/Demo2/Content/Demo/Materials/M_Shot_Laser.uasset'
+[2021.06.04-16.39.57:473][310]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.04-16.39.57:473][310]LogContentValidation: Display: Validating Blueprint /Game/Demo/Blueprint/BP_Dude.BP_Dude
+[2021.06.04-16.39.57:473][310]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Demo/Materials/M_Shot_Laser.M_Shot_Laser
+[2021.06.04-16.40.50:872][797]BlueprintLog: New page: Compile BP_Dude
+[2021.06.04-16.40.51:264][797]LogUObjectHash: Compacting FUObjectHashTables data took   6.08ms
+[2021.06.04-16.40.52:894][944]LogUObjectHash: Compacting FUObjectHashTables data took   5.73ms
+[2021.06.04-16.40.54:074][944]LogSlate: Window 'Save Content' being destroyed
+[2021.06.04-16.40.54:119][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Demo/Blueprint/BP_Dude" FILE="C:/Users/Brandon/Documents/GitHub/Unreal-2D-Game-Demo/Demo2/Content/Demo/Blueprint/BP_Dude.uasset" SILENT=true
+[2021.06.04-16.40.54:217][944]LogSavePackage: Moving 'C:/Users/Brandon/Documents/GitHub/Unreal-2D-Game-Demo/Demo2/Saved/BP_Dude336B5F954D0DB71345DCBB9B69B08EFC.tmp' to 'C:/Users/Brandon/Documents/GitHub/Unreal-2D-Game-Demo/Demo2/Content/Demo/Blueprint/BP_Dude.uasset'
+[2021.06.04-16.40.54:235][944]AssetCheck: New page: Asset Save: BP_Dude
+[2021.06.04-16.40.54:235][944]LogContentValidation: Display: Validating Blueprint /Game/Demo/Blueprint/BP_Dude.BP_Dude
